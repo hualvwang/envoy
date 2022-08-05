@@ -1065,11 +1065,19 @@ REPOSITORY_LOCATIONS_SPEC = dict(
     proxy_wasm_cpp_sdk = dict(
         project_name = "WebAssembly for Proxies (C++ SDK)",
         project_desc = "WebAssembly for Proxies (C++ SDK)",
-        project_url = "https://github.com/proxy-wasm/proxy-wasm-cpp-sdk",
-        version = "e30535b7c0cd3126e6401bc3769063a74bbb37be",
-        sha256 = "94e474ebea782225821224734ed5992fa749301e12e06b6520b8b4d4e1c05ffc",
+
+        project_url = "https://github.com/moonheart/proxy-wasm-cpp-sdk",
+        version = "450d326881ad58b46b00a525a42087677b0a30b3",
+        sha256 = "b79124f32d182c5d9e12f6390049393e961116c3c663ea8862e7a4c0f9f009ed",
         strip_prefix = "proxy-wasm-cpp-sdk-{version}",
-        urls = ["https://github.com/proxy-wasm/proxy-wasm-cpp-sdk/archive/{version}.tar.gz"],
+        urls = ["https://github.com/moonheart/proxy-wasm-cpp-sdk/archive/{version}.tar.gz"],
+
+        # project_url = "https://github.com/proxy-wasm/proxy-wasm-cpp-sdk",
+        # version = "e30535b7c0cd3126e6401bc3769063a74bbb37be",
+        # sha256 = "94e474ebea782225821224734ed5992fa749301e12e06b6520b8b4d4e1c05ffc",
+        # strip_prefix = "proxy-wasm-cpp-sdk-{version}",
+        # urls = ["https://github.com/proxy-wasm/proxy-wasm-cpp-sdk/archive/{version}.tar.gz"],
+
         use_category = ["dataplane_ext"],
         extensions = [
             "envoy.access_loggers.wasm",
@@ -1089,11 +1097,19 @@ REPOSITORY_LOCATIONS_SPEC = dict(
     proxy_wasm_cpp_host = dict(
         project_name = "WebAssembly for Proxies (C++ host implementation)",
         project_desc = "WebAssembly for Proxies (C++ host implementation)",
+
+        # project_url = "https://github.com/proxy-wasm/proxy-wasm-cpp-host",
+        # version = "694a0b073912ff3bd00b6ca70d16ca43b2aebbf2",
+        # sha256 = "d8b8ed52c48a4847a76c2192095362972e4ce07b95311f36da844128d5b35ab5",
+        # strip_prefix = "proxy-wasm-cpp-host-{version}",
+        # urls = ["https://github.com/proxy-wasm/proxy-wasm-cpp-host/archive/{version}.tar.gz"],
+
         project_url = "https://github.com/moonheart/proxy-wasm-cpp-host",
-        version = "eae43d53e3f0892814947b6affe19bcf64a30a14",
-        sha256 = "ccb7391605141669562f15ae59792a1a9ae7bd1bb8cba77eb632afaa333d1fe6",
+        version = "0e973f6b7e8d2ec9a33b5913b9492e6e36480812",
+        sha256 = "a485b08ef24785195aa61b916efd350c5364b0aa01037891eb67dce6c92fbab4",
         strip_prefix = "proxy-wasm-cpp-host-{version}",
         urls = ["https://github.com/moonheart/proxy-wasm-cpp-host/archive/{version}.tar.gz"],
+
         use_category = ["dataplane_ext"],
         extensions = [
             "envoy.access_loggers.wasm",
@@ -1107,7 +1123,7 @@ REPOSITORY_LOCATIONS_SPEC = dict(
             "envoy.wasm.runtime.wavm",
             "envoy.wasm.runtime.wasmtime",
         ],
-        release_date = "2022-04-07",
+        release_date = "2022-08-07",
         cpe = "N/A",
     ),
     proxy_wasm_rust_sdk = dict(
