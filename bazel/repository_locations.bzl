@@ -1067,8 +1067,8 @@ REPOSITORY_LOCATIONS_SPEC = dict(
         project_desc = "WebAssembly for Proxies (C++ SDK)",
 
         project_url = "https://github.com/moonheart/proxy-wasm-cpp-sdk",
-        version = "450d326881ad58b46b00a525a42087677b0a30b3",
-        sha256 = "b79124f32d182c5d9e12f6390049393e961116c3c663ea8862e7a4c0f9f009ed",
+        version = "eeef2d188f876a7c42830140e2bea8366a2d27b4",
+        sha256 = "9771de144a97f69752f51b9e9f1fb49243cd425d3496189bd5ea570b349ceb57",
         strip_prefix = "proxy-wasm-cpp-sdk-{version}",
         urls = ["https://github.com/moonheart/proxy-wasm-cpp-sdk/archive/{version}.tar.gz"],
 
