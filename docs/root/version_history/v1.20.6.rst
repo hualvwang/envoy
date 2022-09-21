@@ -1,5 +1,5 @@
-1.22.5 (August 12, 2022)
-========================
+1.20.6 (June 16, 2022)
+======================
 
 Incompatible Behavior Changes
 -----------------------------
@@ -13,14 +13,11 @@ Bug Fixes
 ---------
 *Changes expected to improve the state of the world and are unlikely to have negative effects*
 
-* listener: fixed a bug that doesn't handle of an update for a listener with IPv4-mapped address correctly, and that will lead to a memory leak.
-* repo: fix version to resolve release issue.
-* transport_socket: fixed a bug that prevented the tcp stats to be retrieved when running on kernels different than the kernel where Envoy was built.
+* ci: fix disk space issue that have prevented publication.
 
 Removed Config or Runtime
 -------------------------
-*Normally occurs at the end of the* :ref:`deprecation period <deprecated>`
-
+*Normally occurs at the end of the* :ref:`deprecation period <v1.20:deprecated>`
 
 New Features
 ------------
